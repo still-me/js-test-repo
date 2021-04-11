@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-image: radial-gradient(
+      circle at center,
+      $first-gradient-color 20%,
+      $second-gradient-color 50%
+    ),
+    url('https://bumper-stickers.ru/30217-large_default/grustnyy-smaylik.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
