@@ -1,0 +1,61 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "power": 90,
+      "skills": [
+        "fight",
+        "equipment",
+        "money"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "power": 100,
+      "skills": [
+        "power",
+        "speed",
+        "lacer look"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Joker",
+      "power": 70,
+      "skills": [
+        "brain",
+        "craziest"
+      ]
+    },
+    {
+      "name": "Riddler",
+      "power": 50,
+      "skills": [
+        "logic",
+        "trick"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Penguin",
+      "power": 30,
+      "skills": [
+        "authority",
+        "meanness",
+        "angry"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Catwoomen",
+      "power": 40,
+      "skills": [
+        "speed",
+        "9 lives"
+      ],
+      "id": 6
+    }
+  ]
+}

@@ -43,6 +43,11 @@ module.exports = env => ({
       filename: 'news.html',
       chunks: ['news'],
     }),
+    new HtmlWebpackPlugin({
+      template: './movies.html',
+      filename: 'movies.html',
+      chunks: ['movies'],
+    }),
   ],
   devServer: {
     contentBase: paths.BUILD_DIR,

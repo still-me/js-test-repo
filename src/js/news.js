@@ -1,7 +1,7 @@
 import '../sass/main.scss';
 import NewsApiService from './services/news-service.js';
 import articlesTpl from '../templates/news.hbs';
-import LoadMoreBtn from './components/load-more-btn'
+import LoadMoreBtn from './components/load-more-btn';
 
 const refs = {
   searchForm: document.querySelector('.js-search-form'),

@@ -18,6 +18,7 @@ module.exports = env => ({
     promises: './js/promises-race.js',
     form2Fields: './js/form-2-fields.js',
     news: './js/news.js',
+    movies: './js/movies.js',
   },
   output: {
     path: paths.BUILD_DIR,
